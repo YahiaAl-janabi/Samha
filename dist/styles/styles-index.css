@@ -1,0 +1,134 @@
+* {
+  text-align: center;
+}
+
+body {
+  background-image: url(/dist/Images/day.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+ul {
+  padding-right: 32px;
+  margin-top: 40px;
+  padding-top: 50px;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  list-style: none;
+}
+li {
+  width: calc(100% / 3);
+  padding: 10px;
+  float: left;
+  text-align: center;
+}
+li .angled-gradient-button {
+  text-decoration: none;
+  height: 100%;
+  width: 100%;
+  background-size: 220%;
+  box-shadow: 0 0.2em 0.3em rgba(0, 0, 0, 0.15);
+  color: #5a1601;
+  background-color: #fedc9f;
+  background-position: 100%;
+  border: 2px solid #5a1601;
+  text-transform: uppercase;
+  padding: 8px 16px;
+  border-radius: 0px;
+  transition: all 0.2s ease-out;
+  font-weight: 900;
+  cursor: pointer;
+  letter-spacing: 2px;
+  background-image: linear-gradient(
+    110deg,
+    #5a1601 50%,
+    #fedc9f 0%,
+    transparent 0%,
+    transparent 100%
+  );
+  font-size: 20px;
+  animation: bounce-in 2s linear 1;
+}
+
+li .angled-gradient-button:hover {
+  font-size: 20px;
+  border: 2px solid #fedc9f;
+  color: #fedc9f;
+  transform: translateY(-2px);
+  box-shadow: 0 0 0.3em rgba(0, 0, 0, 0.25);
+  background-position: 0;
+}
+#homeid {
+  background-color: #5a1601;
+  color: #fedc9f;
+  border: 2px solid #fedc9f;
+}
+
+#logo {
+  padding-top: 40px;
+  animation: scale-fade-in 3s cubic-bezier(0.34, 1.56, 0.64, 1) 1;
+}
+@keyframes scale-fade-in {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+
+  30%,
+  70% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@media (max-width: 991.98px) {
+  li .angled-gradient-button,
+  li .angled-gradient-button:hover {
+    font-size: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .angled-gradient-button,
+  .angled-gradient-button:hover {
+    height: auto;
+  }
+  li {
+    width: 50%;
+    margin: 0 auto;
+    float: none;
+  }
+  #logo {
+    padding-top: 40px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  li .angled-gradient-button,
+  li .angled-gradient-button:hover {
+    font-size: 20px;
+    margin: 0 auto;
+  }
+  li {
+    width: 50%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 575.98px) {
+  li .angled-gradient-button {
+    font-size: 20px;
+  }
+  li {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
