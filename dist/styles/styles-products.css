@@ -145,9 +145,9 @@ li .angled-gradient-button:hover {
   margin-top: 150px;
   height: 100px;
   padding: 20px;
-  background-color: #fedc9f;
+  background: #fedc9f linear-gradient(147deg, #ffe0a6, #ddbb7a 25%, #fcd58e)
+    no-repeat;
   font-size: 18px;
-  font-weight: ;
   text-align: center;
   color: #5a1601;
   filter: drop-shadow(1px 1px 0px rgb(0, 0, 0));

@@ -97,7 +97,8 @@ div .div-para {
   background-color: aqua;
   border: 3px solid #5a1601;
   border-radius: px;
-  background-color: #fedc9f;
+  background: #ffdb99 linear-gradient(147deg, #ffe0a6, #ddbb7a 25%, #ffdb97)
+    no-repeat;
 }
 p#para {
   text-align: center;
@@ -117,7 +118,8 @@ div .div-parab {
   background-color: aqua;
   border: 3px solid #5a1601;
   border-radius: px;
-  background-color: #fedc9f;
+  background: #ffdb99 linear-gradient(147deg, #ffe0a6, #ddbb7a 25%, #ffdb97)
+    no-repeat;
 }
 p.parabc {
   padding: 50px;
@@ -184,7 +186,8 @@ div#div-para {
   background-color: aqua;
   border: 2px solid #5a1601;
   border-radius: 10px;
-  background-color: #fedc9f;
+  background: #ffdb99 linear-gradient(147deg, #ffe0a6, #ddbb7a 25%, #ffdb97)
+    no-repeat;
 }
 div#para {
   height: px;
