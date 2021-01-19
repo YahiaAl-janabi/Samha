@@ -1,7 +1,9 @@
 * {
   text-align: center;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 body {
   background-image: url(/dist/Images/day.jpg);
   background-repeat: no-repeat;
